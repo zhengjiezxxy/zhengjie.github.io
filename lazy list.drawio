@@ -28,8 +28,8 @@
         <mxCell id="6m2Imb8p-eKEgnZs0dNI-18" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=60;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="140" y="143.23000000000002" width="22.87" height="23.54" as="geometry" />
         </mxCell>
-        <mxCell id="6m2Imb8p-eKEgnZs0dNI-22" value="缺乏标记" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="90" width="60" height="30" as="geometry" />
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-22" value="两把锁：不可达问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
