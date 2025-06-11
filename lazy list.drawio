@@ -31,6 +31,39 @@
         <mxCell id="6m2Imb8p-eKEgnZs0dNI-22" value="两把锁：不可达问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="90" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-23" value="两把锁+标记：避免不可达问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32.87" y="210" width="167.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="6m2Imb8p-eKEgnZs0dNI-25" target="6m2Imb8p-eKEgnZs0dNI-27" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="6m2Imb8p-eKEgnZs0dNI-27" target="6m2Imb8p-eKEgnZs0dNI-28" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-29" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock" vertex="1" parent="1">
+          <mxGeometry x="218.3" y="240" width="23.4" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-31" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=60;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="263.23" width="22.87" height="23.54" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-32" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-33" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.lock" vertex="1" parent="1">
+          <mxGeometry x="358.3" y="240" width="23.4" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m2Imb8p-eKEgnZs0dNI-35" value="两把锁+标记：避免插入问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32.87" y="320" width="167.13" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
