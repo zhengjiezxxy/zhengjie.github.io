@@ -13,17 +13,20 @@
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-3" value="数据过滤" style="whiteSpace=wrap;strokeWidth=2;" parent="wdBvNr7E38Eyd4g5zLgd-1" vertex="1">
           <mxGeometry x="217" y="46" width="124" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="wdBvNr7E38Eyd4g5zLgd-4" value="数据抽取器" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wdBvNr7E38Eyd4g5zLgd-4" value="统一接入层-数据抽取器" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="444" y="230" width="368" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-5" value="全量同步" style="whiteSpace=wrap;strokeWidth=2;" parent="wdBvNr7E38Eyd4g5zLgd-4" vertex="1">
-          <mxGeometry x="43" y="46" width="124" height="54" as="geometry" />
+          <mxGeometry x="26" y="46" width="67" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-6" value="增量同步" style="whiteSpace=wrap;strokeWidth=2;" parent="wdBvNr7E38Eyd4g5zLgd-4" vertex="1">
-          <mxGeometry x="217" y="46" width="124" height="54" as="geometry" />
+          <mxGeometry x="136" y="46" width="73" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="1AvguPAmNxw9mXg1L3JD-20" value="实时同步" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="wdBvNr7E38Eyd4g5zLgd-4">
+          <mxGeometry x="246" y="46" width="73" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-7" value="MySQL" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="280" y="268" width="114" height="54" as="geometry" />
+          <mxGeometry x="280" y="200" width="114" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-8" value="临时存储" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="862" y="268" width="124" height="54" as="geometry" />
@@ -31,8 +34,11 @@
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="wdBvNr7E38Eyd4g5zLgd-9" target="wdBvNr7E38Eyd4g5zLgd-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wdBvNr7E38Eyd4g5zLgd-9" value="数据写入器" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1454" y="268" width="148" height="54" as="geometry" />
+        <mxCell id="1AvguPAmNxw9mXg1L3JD-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wdBvNr7E38Eyd4g5zLgd-9" target="1AvguPAmNxw9mXg1L3JD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wdBvNr7E38Eyd4g5zLgd-9" value="统一接入层-数据写入器" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="268" width="148" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wdBvNr7E38Eyd4g5zLgd-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="wdBvNr7E38Eyd4g5zLgd-7" target="wdBvNr7E38Eyd4g5zLgd-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -95,6 +101,17 @@
         </mxCell>
         <mxCell id="1AvguPAmNxw9mXg1L3JD-15" value="spark集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1AvguPAmNxw9mXg1L3JD-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="1AvguPAmNxw9mXg1L3JD-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AvguPAmNxw9mXg1L3JD-17" value="kafaka" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="322" width="114" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="1AvguPAmNxw9mXg1L3JD-21" value="hive" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1722" y="350" width="148" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
